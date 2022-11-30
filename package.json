@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-starter-kit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/creativetimofficial/tailwind-starter-kit.git",
+  "author": "Othman <67125450+Othman2001@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.3"
+  }
+}
